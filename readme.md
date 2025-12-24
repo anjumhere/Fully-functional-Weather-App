@@ -1,108 +1,137 @@
-🛠️ Technologies Used
+<h1>🌦️ Weather App</h1>
 
-HTML5
+<p>
+  A <strong>modern, responsive Weather App</strong> built using
+  <strong>HTML, CSS, and JavaScript</strong>, powered by
+  <strong>WeatherAPI</strong>.
+  <br />
+  This project demonstrates real-world frontend development, API integration,
+  and clean UI design.
+</p>
 
-CSS3 (Flexbox, Media Queries, Animations)
+<hr />
 
-JavaScript (ES6+)
+<h1>🛠️ Technologies Used</h1>
 
-WeatherAPI (Current weather data)
+<ul>
+  <li><strong>HTML5</strong></li>
+  <li><strong>CSS3</strong> (Flexbox, Media Queries, Animations)</li>
+  <li><strong>JavaScript (ES6+)</strong></li>
+  <li><strong>WeatherAPI</strong> (Current weather data)</li>
+</ul>
 
-📂 Project Structure
-weather-app/
-│
-├── images/
-│ ├── background.jpg
-│ └── suncl.png
-│
-├── index.html
-├── style.css
-├── index.js
-└── README.md
+<hr />
 
-⚙️ How It Works
+<h1>📂 Project Structure</h1>
 
-User enters a city name
+<pre>
+weather-app → images(background.jpg, suncl.png) | index.html | style.css | index.js | README.md
+</pre>
 
-App sends a request to WeatherAPI
+<hr />
 
-Weather data is fetched asynchronously using fetch()
+<h1>⚙️ How It Works</h1>
 
-UI updates dynamically:
+<ul>
+  <li>User enters a <strong>city name</strong></li>
+  <li>App sends a request to <strong>WeatherAPI</strong></li>
+  <li>Weather data is fetched asynchronously using <strong>fetch()</strong></li>
+  <li>
+    UI updates dynamically:
+    <ul>
+      <li><strong>City name</strong></li>
+      <li><strong>Temperature (°C)</strong></li>
+      <li><strong>Weather condition</strong></li>
+      <li><strong>Dynamic weather icon</strong></li>
+    </ul>
+  </li>
+</ul>
 
-City name
+<hr />
 
-Temperature
+<h1>🔑 API Used</h1>
 
-Weather condition
+<h2>WeatherAPI</h2>
 
-Weather icon
+<p><strong>Endpoint:</strong></p>
 
-🔑 API Used
-
-WeatherAPI
-
-Endpoint:
-
+<pre>
 https://api.weatherapi.com/v1/current.json
+</pre>
 
-You need a free API key from
-👉 https://www.weatherapi.com/
+<p>
+  You need a <strong>free API key</strong> from:
+  <br />
+  👉 <a href="https://www.weatherapi.com/" target="_blank">https://www.weatherapi.com/</a>
+</p>
 
-🧪 Example API Response Used
+<hr />
 
-location.name
+<h1>🧪 Example API Response Fields Used</h1>
 
-current.temp_c
+<ul>
+  <li><code>location.name</code></li>
+  <li><code>current.temp_c</code></li>
+  <li><code>current.condition.text</code></li>
+  <li><code>current.condition.icon</code></li>
+</ul>
 
-current.condition.text
+<hr />
 
-current.condition.icon
+<h1>📱 Responsive Design</h1>
 
-📱 Responsive Design
+<ul>
+  <li><strong>Mobile-first layout</strong></li>
+  <li><strong>Flexible container sizing</strong></li>
+  <li><strong>Touch-friendly inputs and buttons</strong></li>
+  <li><strong>Optimized for mobile, tablet, and desktop</strong></li>
+</ul>
 
-Mobile-first layout
+<hr />
 
-Flexible container sizing
+<h1>🧠 What I Learned</h1>
 
-Touch-friendly inputs and buttons
+<ul>
+  <li>Working with <strong>REST APIs</strong></li>
+  <li>Handling async JavaScript using <strong>async / await</strong></li>
+  <li><strong>DOM manipulation</strong></li>
+  <li>Building <strong>responsive UIs</strong></li>
+  <li>Debugging <strong>file paths & assets</strong></li>
+  <li>Real-world <strong>frontend workflow</strong></li>
+</ul>
 
-Optimized for small and large screens
+<hr />
 
-🧠 What I Learned
+<h1>🌟 Future Improvements</h1>
 
-Working with REST APIs
+<ul>
+  <li>🌙 Day / Night mode</li>
+  <li>🌧️ Weather-based background changes</li>
+  <li>📅 3-day or 7-day forecast</li>
+  <li>⏳ Loading & error handling UI</li>
+  <li>💾 Save last searched city</li>
+</ul>
 
-Handling async JavaScript (async/await)
+<hr />
 
-DOM manipulation
+<h1>📸 Preview</h1>
 
-Responsive UI design
+<pre>
+&lt;img src="images/preview.png" /&gt;
+</pre>
 
-Debugging file paths & assets
+<hr />
 
-Real-world frontend workflow
+<h1>📄 License</h1>
 
-🌟 Future Improvements
+<p>This project is <strong>open-source</strong> and free to use.</p>
 
-🌙 Day / Night mode
+<hr />
 
-🌧️ Weather-based background changes
+<h1>🙌 Author</h1>
 
-📅 3-day or 7-day forecast
+<h2>Adnan Anjum</h2>
 
-⏳ Loading & error states
-
-💾 Save last searched city
-
-📸 Preview
-<img src="images/preview.png"/>
-
-📄 License
-
-This project is open-source and free to use.
-
-🙌 Author
-
-Adnan Anjum
-Learning & building with JavaScript
+<p>
+  Learning & building with <strong>JavaScript</strong> 🚀
+</p>
