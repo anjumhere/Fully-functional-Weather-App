@@ -3,19 +3,24 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Weather app</title>
+    <title>Weather App</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <div class="container">
       <h2>Weather App</h2>
-      <input
-        type="text"
-        class="search"
-        placeholder="Enter Your Location here"
-      />
-      <button class="btn">Search</button>
-      <img src="sun.jpg" alt="" />
+
+      <div class="search-wrapper">
+        <input type="text" class="search" placeholder="Enter city name" />
+        <button class="btn">Search</button>
+      </div>
+
+      <div class="weather-info">
+        <img src="suncl.png" class="weather-icon" alt="weather icon" />
+        <h3 class="city">London</h3>
+        <h1 class="temp">22°C</h1>
+        <p class="condition">Partly Cloudy</p>
+      </div>
     </div>
   </body>
 </html>
