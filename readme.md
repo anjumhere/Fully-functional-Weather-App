@@ -1,1 +1,1 @@
-# Fully functional weathewr app
+# Fully functional weather app
