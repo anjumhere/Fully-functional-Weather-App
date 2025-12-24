@@ -12,19 +12,20 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 20px;
   background: linear-gradient(135deg, #1e3c72, #2a5298);
 }
 
 /* Main container */
 .container {
-  width: 380px;
-  height: 500px;
+  width: 100%;
+  max-width: 380px;
+  min-height: 500px;
   padding: 25px;
   border-radius: 30px;
   text-align: center;
   color: white;
 
-  /* Background image with dark overlay */
   background-image: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)),
     url("background.jpg");
 
@@ -46,6 +47,7 @@ body {
   display: flex;
   justify-content: center;
   gap: 10px;
+  flex-wrap: wrap;
 }
 
 /* Search input */
@@ -82,7 +84,7 @@ body {
   color: white;
 }
 
-/* Weather info section */
+/* Weather info */
 .weather-info {
   margin-top: 35px;
 }
@@ -116,7 +118,7 @@ body {
   opacity: 0.9;
 }
 
-/* Floating animation for icon */
+/* Floating animation */
 @keyframes float {
   0% {
     transform: translateY(0);
@@ -126,5 +128,46 @@ body {
   }
   100% {
     transform: translateY(0);
+  }
+}
+
+/* 📱 Mobile responsiveness */
+@media (max-width: 480px) {
+  .container {
+    padding: 20px;
+    border-radius: 20px;
+  }
+
+  .container h2 {
+    font-size: 22px;
+  }
+
+  .search {
+    width: 100%;
+  }
+
+  .btn {
+    width: 100%;
+  }
+
+  .weather-icon {
+    width: 120px;
+    height: 120px;
+  }
+
+  .temp {
+    font-size: 48px;
+  }
+}
+
+/* 📱 Very small screens */
+@media (max-width: 360px) {
+  .weather-icon {
+    width: 100px;
+    height: 100px;
+  }
+
+  .temp {
+    font-size: 42px;
   }
 }
