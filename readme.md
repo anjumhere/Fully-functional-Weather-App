@@ -25,7 +25,16 @@
 <h1>📂 Project Structure</h1>
 
 <pre>
-weather-app → images(background.jpg, suncl.png) | index.html | style.css | index.js | README.md
+weather-app/
+│
+├── images/
+│   ├── background.jpg
+│   └── suncl.png
+│
+├── index.html
+├── style.css
+├── index.js
+└── README.md
 </pre>
 
 <hr />
@@ -116,9 +125,7 @@ https://api.weatherapi.com/v1/current.json
 
 <h1>📸 Preview</h1>
 
-<pre>
-&lt;img src="images/preview.png" /&gt;
-</pre>
+<img src="images/preview.png" />
 
 <hr />
 
