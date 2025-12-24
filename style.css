@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Page background */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px;
+  background: linear-gradient(135deg, #1e3c72, #2a5298);
+}
+
+/* Title */
+h2 {
+  margin: 10px;
+}
+
+/* Main container */
+.container {
+  border: 1px solid grey;
+  width: 400px;
+  height: 400px;
+  text-align: center;
+  background-color: #ffffff;
+  border-radius: 40px;
+  background-image: url("background.jpg");
+  background-size: cover;
+  background-position: center;
+
+  backdrop-filter: blur(8px);
+  box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.2),
+    0 30px 60px rgba(0, 0, 0, 0.35);
+}
+
+/* Wrapper for input + image */
+.search-wrapper {
+  position: relative; /* REQUIRED for layering */
+}
+
+/* Search input */
+.search {
+  height: 30px;
+  width: 250px;
+  margin: 18px;
+  border-radius: 20px;
+  outline: none;
+  border: 1px solid grey;
+  text-align: center;
+
+  position: relative; /* REQUIRED */
+  z-index: 1; /* stays on top */
+}
+
+/* Placeholder */
+.search::placeholder {
+  text-align: center;
+  color: grey;
+}
+
+/* Button */
+.btn {
+  height: 40px;
+  width: 70px;
+  border-radius: 40px;
+  outline: none;
+  border: 1px solid grey;
+}
+
+.btn:hover {
+  cursor: pointer;
+  background-color: rgb(127, 109, 128);
+  transition: 1s ease-in-out;
+  color: white;
+}
+
+/* Weather image (BEHIND input) */
+img {
+  height: 180px;
+  width: 200px;
+  transform: translateX(-50%);
+  z-index: 0; /* goes behind input */
+  position: relative;
+  border-radius: 80px;
+  left: 70px;
+  bottom: 40px;
+}
